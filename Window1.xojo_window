@@ -377,13 +377,6 @@ End
 
 #tag EndWindowCode
 
-#tag Events HTMLViewer1
-	#tag Event
-		Sub Open()
-		  
-		End Sub
-	#tag EndEvent
-#tag EndEvents
 #tag Events Label1
 	#tag Event
 		Function MouseDown(X As Integer, Y As Integer) As Boolean
