@@ -25,10 +25,10 @@ Begin Window Window1
    Resizeable      =   False
    Title           =   "Untitled"
    Visible         =   True
-   Width           =   902
+   Width           =   822
    Begin HTMLViewer HTMLViewer1
       AutoDeactivate  =   True
-      Enabled         =   True
+      Enabled         =   False
       Height          =   388
       HelpTag         =   ""
       Index           =   -2147483648
@@ -45,7 +45,399 @@ Begin Window Window1
       TabStop         =   True
       Top             =   0
       Visible         =   True
-      Width           =   692
+      Width           =   612
+   End
+   Begin PushButton PushButtonFile1_1
+      AutoDeactivate  =   True
+      Bold            =   False
+      ButtonStyle     =   "0"
+      Cancel          =   False
+      Caption         =   "Test 1"
+      Default         =   False
+      Enabled         =   True
+      Height          =   20
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   5
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      Scope           =   2
+      TabIndex        =   4
+      TabPanelIndex   =   0
+      TabStop         =   True
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   9
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   True
+      Width           =   60
+   End
+   Begin PushButton PushButtonFile2_1
+      AutoDeactivate  =   True
+      Bold            =   False
+      ButtonStyle     =   "0"
+      Cancel          =   False
+      Caption         =   "Test 2"
+      Default         =   False
+      Enabled         =   True
+      Height          =   20
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   69
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      Scope           =   2
+      TabIndex        =   6
+      TabPanelIndex   =   0
+      TabStop         =   True
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   9
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   True
+      Width           =   60
+   End
+   Begin PushButton PushButtonFile99
+      AutoDeactivate  =   True
+      Bold            =   False
+      ButtonStyle     =   "0"
+      Cancel          =   False
+      Caption         =   "Close File"
+      Default         =   False
+      Enabled         =   True
+      Height          =   20
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   5
+      LockBottom      =   True
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   False
+      Scope           =   2
+      TabIndex        =   8
+      TabPanelIndex   =   0
+      TabStop         =   True
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   368
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   True
+      Width           =   193
+   End
+   Begin Label Label2
+      AutoDeactivate  =   True
+      Bold            =   False
+      DataField       =   ""
+      DataSource      =   ""
+      Enabled         =   True
+      Height          =   42
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   0
+      LockBottom      =   True
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   False
+      Multiline       =   False
+      Scope           =   2
+      Selectable      =   True
+      TabIndex        =   9
+      TabPanelIndex   =   0
+      TabStop         =   True
+      Text            =   "Click to open in browser ->"
+      TextAlign       =   2
+      TextColor       =   &c00000000
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   386
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   True
+      Width           =   198
+   End
+   Begin PushButton PushButtonFile3_1
+      AutoDeactivate  =   True
+      Bold            =   False
+      ButtonStyle     =   "0"
+      Cancel          =   False
+      Caption         =   "Test 3"
+      Default         =   False
+      Enabled         =   True
+      Height          =   20
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   133
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      Scope           =   2
+      TabIndex        =   11
+      TabPanelIndex   =   0
+      TabStop         =   True
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   9
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   True
+      Width           =   70
+   End
+   Begin Listbox pdfDestList
+      AutoDeactivate  =   True
+      AutoHideScrollbars=   True
+      Bold            =   False
+      Border          =   True
+      ColumnCount     =   1
+      ColumnsResizable=   False
+      ColumnWidths    =   ""
+      DataField       =   ""
+      DataSource      =   ""
+      DefaultRowHeight=   -1
+      Enabled         =   True
+      EnableDrag      =   False
+      EnableDragReorder=   False
+      GridLinesHorizontal=   0
+      GridLinesVertical=   0
+      HasHeading      =   True
+      HeadingIndex    =   -1
+      Height          =   82
+      HelpTag         =   ""
+      Hierarchical    =   False
+      Index           =   -2147483648
+      InitialParent   =   ""
+      InitialValue    =   "Doc Targets in PDF"
+      Italic          =   False
+      Left            =   5
+      LockBottom      =   True
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      RequiresSelection=   False
+      Scope           =   2
+      ScrollbarHorizontal=   False
+      ScrollBarVertical=   True
+      SelectionType   =   0
+      ShowDropIndicator=   False
+      TabIndex        =   12
+      TabPanelIndex   =   0
+      TabStop         =   True
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   244
+      Transparent     =   False
+      Underline       =   False
+      UseFocusRing    =   True
+      Visible         =   False
+      Width           =   198
+      _ScrollOffset   =   0
+      _ScrollWidth    =   -1
+   End
+   Begin PushButton prevPageBtn
+      AutoDeactivate  =   True
+      Bold            =   False
+      ButtonStyle     =   "0"
+      Cancel          =   False
+      Caption         =   "<"
+      Default         =   False
+      Enabled         =   True
+      Height          =   20
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   6
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      Scope           =   2
+      TabIndex        =   13
+      TabPanelIndex   =   0
+      TabStop         =   True
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   221
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   False
+      Width           =   34
+   End
+   Begin PushButton nextPageBtn
+      AutoDeactivate  =   True
+      Bold            =   False
+      ButtonStyle     =   "0"
+      Cancel          =   False
+      Caption         =   ">"
+      Default         =   False
+      Enabled         =   True
+      Height          =   20
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   169
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      Scope           =   2
+      TabIndex        =   14
+      TabPanelIndex   =   0
+      TabStop         =   True
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   219
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   False
+      Width           =   34
+   End
+   Begin Label totalPagesLabel
+      AutoDeactivate  =   True
+      Bold            =   False
+      DataField       =   ""
+      DataSource      =   ""
+      Enabled         =   True
+      Height          =   20
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   110
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      Multiline       =   False
+      Scope           =   2
+      Selectable      =   False
+      TabIndex        =   16
+      TabPanelIndex   =   0
+      TabStop         =   True
+      Text            =   "…"
+      TextAlign       =   1
+      TextColor       =   &c00000000
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   220
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   False
+      Width           =   48
+   End
+   Begin Label pageSeparatorLabel
+      AutoDeactivate  =   True
+      Bold            =   False
+      DataField       =   ""
+      DataSource      =   ""
+      Enabled         =   True
+      Height          =   20
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   103
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      Multiline       =   False
+      Scope           =   2
+      Selectable      =   False
+      TabIndex        =   17
+      TabPanelIndex   =   0
+      TabStop         =   True
+      Text            =   "/"
+      TextAlign       =   1
+      TextColor       =   &c00000000
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   220
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   False
+      Width           =   13
+   End
+   Begin Label currentPageLabel
+      AutoDeactivate  =   True
+      Bold            =   False
+      DataField       =   ""
+      DataSource      =   ""
+      Enabled         =   True
+      Height          =   20
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   45
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      Multiline       =   False
+      Scope           =   2
+      Selectable      =   False
+      TabIndex        =   18
+      TabPanelIndex   =   0
+      TabStop         =   True
+      Text            =   "…"
+      TextAlign       =   1
+      TextColor       =   &c00000000
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   220
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   False
+      Width           =   48
+   End
+   Begin Timer checkPage
+      Index           =   -2147483648
+      LockedInPosition=   False
+      Mode            =   2
+      Period          =   500
+      Scope           =   2
+      TabPanelIndex   =   0
    End
    Begin Label Label1
       AutoDeactivate  =   True
@@ -80,14 +472,14 @@ Begin Window Window1
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   692
+      Width           =   612
    End
-   Begin PushButton PushButtonFile1_1
+   Begin PushButton loadLocalPdfBtn
       AutoDeactivate  =   True
       Bold            =   False
       ButtonStyle     =   "0"
       Cancel          =   False
-      Caption         =   "Load File1"
+      Caption         =   "Load local PDF"
       Default         =   False
       Enabled         =   True
       Height          =   20
@@ -95,31 +487,31 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   0
+      Left            =   5
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
       LockRight       =   False
       LockTop         =   True
       Scope           =   2
-      TabIndex        =   4
+      TabIndex        =   19
       TabPanelIndex   =   0
       TabStop         =   True
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   9
+      Top             =   188
       Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   198
    End
-   Begin PushButton PushButtonFile1_2
+   Begin PushButton loadPdfFolderBtn
       AutoDeactivate  =   True
       Bold            =   False
       ButtonStyle     =   "0"
       Cancel          =   False
-      Caption         =   "Load #Page2"
+      Caption         =   "Load PDF Folder"
       Default         =   False
       Enabled         =   True
       Height          =   20
@@ -127,56 +519,76 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   0
+      Left            =   5
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
       LockRight       =   False
       LockTop         =   True
       Scope           =   2
-      TabIndex        =   5
+      TabIndex        =   20
       TabPanelIndex   =   0
       TabStop         =   True
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   105
+      Top             =   33
       Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   198
    End
-   Begin PushButton PushButtonFile2_1
+   Begin Listbox pdfFileList
       AutoDeactivate  =   True
+      AutoHideScrollbars=   True
       Bold            =   False
-      ButtonStyle     =   "0"
-      Cancel          =   False
-      Caption         =   "Load File2"
-      Default         =   False
+      Border          =   True
+      ColumnCount     =   1
+      ColumnsResizable=   False
+      ColumnWidths    =   ""
+      DataField       =   ""
+      DataSource      =   ""
+      DefaultRowHeight=   -1
       Enabled         =   True
-      Height          =   20
+      EnableDrag      =   False
+      EnableDragReorder=   False
+      GridLinesHorizontal=   0
+      GridLinesVertical=   0
+      HasHeading      =   True
+      HeadingIndex    =   -1
+      Height          =   118
       HelpTag         =   ""
+      Hierarchical    =   False
       Index           =   -2147483648
       InitialParent   =   ""
+      InitialValue    =   "PDF Files"
       Italic          =   False
-      Left            =   0
+      Left            =   5
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
       LockRight       =   False
       LockTop         =   True
+      RequiresSelection=   False
       Scope           =   2
-      TabIndex        =   6
+      ScrollbarHorizontal=   False
+      ScrollBarVertical=   True
+      SelectionType   =   0
+      ShowDropIndicator=   False
+      TabIndex        =   21
       TabPanelIndex   =   0
       TabStop         =   True
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   41
+      Top             =   58
       Transparent     =   False
       Underline       =   False
+      UseFocusRing    =   True
       Visible         =   True
       Width           =   198
+      _ScrollOffset   =   0
+      _ScrollWidth    =   -1
    End
    Begin PushButton PushButtonFile2_2
       AutoDeactivate  =   True
@@ -191,113 +603,14 @@ Begin Window Window1
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   0
+      Left            =   6
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
       LockRight       =   False
       LockTop         =   True
       Scope           =   2
-      TabIndex        =   7
-      TabPanelIndex   =   0
-      TabStop         =   True
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   137
-      Transparent     =   False
-      Underline       =   False
-      Visible         =   True
-      Width           =   198
-   End
-   Begin PushButton PushButtonFile99
-      AutoDeactivate  =   True
-      Bold            =   False
-      ButtonStyle     =   "0"
-      Cancel          =   False
-      Caption         =   "Close File"
-      Default         =   False
-      Enabled         =   True
-      Height          =   20
-      HelpTag         =   ""
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   0
-      LockBottom      =   True
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   False
-      Scope           =   2
-      TabIndex        =   8
-      TabPanelIndex   =   0
-      TabStop         =   True
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   368
-      Transparent     =   False
-      Underline       =   False
-      Visible         =   True
-      Width           =   198
-   End
-   Begin Label Label2
-      AutoDeactivate  =   True
-      Bold            =   False
-      DataField       =   ""
-      DataSource      =   ""
-      Enabled         =   True
-      Height          =   42
-      HelpTag         =   ""
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   0
-      LockBottom      =   True
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   False
-      Multiline       =   False
-      Scope           =   2
-      Selectable      =   True
-      TabIndex        =   9
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Text            =   "Click to open locally:"
-      TextAlign       =   2
-      TextColor       =   &c00000000
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   386
-      Transparent     =   False
-      Underline       =   False
-      Visible         =   True
-      Width           =   198
-   End
-   Begin PushButton PushButtonFile100
-      AutoDeactivate  =   True
-      Bold            =   False
-      ButtonStyle     =   "0"
-      Cancel          =   False
-      Caption         =   "Reset Viewer"
-      Default         =   False
-      Enabled         =   True
-      Height          =   20
-      HelpTag         =   ""
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   0
-      LockBottom      =   True
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   False
-      Scope           =   2
-      TabIndex        =   10
+      TabIndex        =   22
       TabPanelIndex   =   0
       TabStop         =   True
       TextFont        =   "System"
@@ -306,39 +619,7 @@ Begin Window Window1
       Top             =   336
       Transparent     =   False
       Underline       =   False
-      Visible         =   True
-      Width           =   198
-   End
-   Begin PushButton PushButtonFile3_1
-      AutoDeactivate  =   True
-      Bold            =   False
-      ButtonStyle     =   "0"
-      Cancel          =   False
-      Caption         =   "Load File3"
-      Default         =   False
-      Enabled         =   True
-      Height          =   20
-      HelpTag         =   ""
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   0
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Scope           =   2
-      TabIndex        =   11
-      TabPanelIndex   =   0
-      TabStop         =   True
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   73
-      Transparent     =   False
-      Underline       =   False
-      Visible         =   True
+      Visible         =   False
       Width           =   198
    End
 End
@@ -347,14 +628,14 @@ End
 #tag WindowCode
 	#tag Event
 		Sub Open()
-		  pdfjsViewer = SpecialFolder.GetResource("pdfjs").child("web").child("pdfviewer.html")
+		  filesPath = SpecialFolder.GetResource("pdfjs").child("web")
+		  pdfjsViewer = FolderItem(filesPath).child("pdfviewer.html")
 		  
 		  If pdfjsViewer <> Nil Then
+		    htmlviewer1.Enabled = true
 		    HTMLViewer1.LoadPage(pdfjsViewer)
 		    
-		    dim loadString as string
-		    loadString = "file://"+pdfjsViewer.NativePath
-		    label1.Text = loadString
+		    label1.Text = "file://"+pdfjsViewer.NativePath
 		  else
 		    MsgBox("There is a problem loading the HTMLViewer at "+pdfjsViewer.NativePath)
 		    Exit
@@ -366,52 +647,90 @@ End
 	#tag EndEvent
 
 
+	#tag Method, Flags = &h21
+		Private Sub loadPDF(thisPDF as FolderItem)
+		  if thisPDF <> nil then
+		    
+		    HTMLViewer1.ExecuteJavaScript("PDFViewerApplication.close()")
+		    HTMLViewer1.ExecuteJavaScript("PDFViewerApplication.open('"+thisPDF.NativePath+"')")
+		    pdfFile = thisPDF
+		    
+		    label1.Text = "file://"+pdfjsViewer.NativePath+"?file="+EncodeURLComponent(pdfFile.NativePath)
+		    
+		  end if
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h21
+		Private Sub updatePDF()
+		  if pdfjsViewer <> nil and HTMLViewer1.IsAvailable then
+		    'PDFViewerApplication.pdfLinkService.pdfViewer.currentPageNumber
+		    'currentPageLabel.text = HTMLViewer1.ExecuteJavaScript("PDFViewerApplication.page")
+		    'totalPagesLabel.text = HTMLViewer1.ExecuteJavaScript("PDFViewerApplication.pagesCount")
+		    
+		    'TitleChanged
+		    'PDFViewerApplication.pdfLinkService.pdfViewer.pdfDocument.pdfInfo
+		    
+		    if totalPages > 1 then 
+		      prevPageBtn.Visible = true
+		      nextPageBtn.Visible = true
+		      totalPagesLabel.Visible = true
+		      pageSeparatorLabel.Visible = true
+		      currentPageLabel.Visible = true
+		    else
+		      prevPageBtn.Visible = false
+		      nextPageBtn.Visible = false
+		      totalPagesLabel.Visible = false
+		      pageSeparatorLabel.Visible = false
+		      currentPageLabel.Visible = false
+		    end if
+		    
+		    
+		  end if
+		End Sub
+	#tag EndMethod
+
+
 	#tag Property, Flags = &h21
-		Private pdfFile As string
+		Private currentPage As Integer
+	#tag EndProperty
+
+	#tag Property, Flags = &h21
+		Private filesPath As FolderItem
+	#tag EndProperty
+
+	#tag Property, Flags = &h21
+		Private pdfFile As FolderItem
 	#tag EndProperty
 
 	#tag Property, Flags = &h21
 		Private pdfjsViewer As FolderItem
 	#tag EndProperty
 
+	#tag Property, Flags = &h21
+		Private selRow As Integer
+	#tag EndProperty
+
+	#tag Property, Flags = &h21
+		Private totalPages As Integer
+	#tag EndProperty
+
 
 #tag EndWindowCode
 
-#tag Events Label1
+#tag Events HTMLViewer1
 	#tag Event
-		Function MouseDown(X As Integer, Y As Integer) As Boolean
-		  if me.text.Len > 5 then ShowURL(me.Text)
-		End Function
+		Sub TitleChanged(newTitle as String)
+		  
+		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events PushButtonFile1_1
 	#tag Event
 		Sub Action()
 		  HTMLViewer1.ExecuteJavaScript("PDFViewerApplication.close()")
-		  
-		  pdfFile = "/Users/eduo/OneDrive%20-%20De%20Lage%20Landen%20International%20B.V/DLL/PM/Projects/XojoPdfJs/pdfjs/web/sample-link_1.pdf"
-		  HTMLViewer1.ExecuteJavaScript("PDFViewerApplication.open('"+pdfFile+"')")
-		  
-		  dim loadString as string
-		  'loadString = "file://"+pdfjsViewer.NativePath+"?file="+EncodeURLComponent(pdfjsViewer.parent.child("sample-link_1.pdf").NativePath)
-		  loadString = "file://"+pdfjsViewer.NativePath+"?file="+pdfFile
-		  label1.Text = loadString
-		  
-		  
-		End Sub
-	#tag EndEvent
-#tag EndEvents
-#tag Events PushButtonFile1_2
-	#tag Event
-		Sub Action()
-		  HTMLViewer1.ExecuteJavaScript("PDFViewerApplication.pdfLinkService.pdfViewer.scrollPageIntoView({pageNumber:2})")
-		  
-		  dim loadString as string
-		  'loadString = "file://"+pdfjsViewer.NativePath+"?file="+EncodeURLComponent(pdfjsViewer.parent.child("sample-link_1.pdf").NativePath)
-		  loadString = "file://"+pdfjsViewer.NativePath+"?file="+pdfFile
-		  loadString = loadString+"#Page2"
-		  label1.Text = loadString
-		  
+		  pdfFile = filesPath.Child("testPDFs").child("issue6204.pdf")
+		  loadPDF(pdfFile)
 		  
 		End Sub
 	#tag EndEvent
@@ -420,30 +739,8 @@ End
 	#tag Event
 		Sub Action()
 		  HTMLViewer1.ExecuteJavaScript("PDFViewerApplication.close()")
-		  
-		  pdfFile = "/Users/eduo/OneDrive%20-%20De%20Lage%20Landen%20International%20B.V/DLL/PM/Projects/XojoPdfJs/pdfjs/web/COMBI.PDF"
-		  HTMLViewer1.ExecuteJavaScript("PDFViewerApplication.open('"+pdfFile+"')")
-		  
-		  dim loadString as string
-		  'loadString = "file://"+pdfjsViewer.NativePath+"?file="+EncodeURLComponent(pdfjsViewer.parent.child("sample-link_1.pdf").NativePath)
-		  loadString = "file://"+pdfjsViewer.NativePath+"?file="+pdfFile
-		  label1.Text = loadString
-		  
-		  
-		End Sub
-	#tag EndEvent
-#tag EndEvents
-#tag Events PushButtonFile2_2
-	#tag Event
-		Sub Action()
-		  HTMLViewer1.ExecuteJavaScript("PDFViewerApplication.pdfLinkService.navigateTo('appendix-a')")
-		  
-		  dim loadString as string
-		  'loadString = "file://"+pdfjsViewer.NativePath+"?file="+EncodeURLComponent(pdfjsViewer.parent.child("sample-link_1.pdf").NativePath)
-		  loadString = "file://"+pdfjsViewer.NativePath+"?file="+pdfFile
-		  loadString = loadString+"#appendix-a"
-		  label1.Text = loadString
-		  
+		  pdfFile = filesPath.Child("testPDFs").child("basicapi.pdf")
+		  loadPDF(pdfFile)
 		  
 		End Sub
 	#tag EndEvent
@@ -458,41 +755,101 @@ End
 		End Sub
 	#tag EndEvent
 #tag EndEvents
-#tag Events PushButtonFile100
-	#tag Event
-		Sub Action()
-		  pdfjsViewer = SpecialFolder.GetResource("pdfjs").child("web").child("pdfviewer.html")
-		  
-		  If pdfjsViewer <> Nil Then
-		    HTMLViewer1.LoadPage(pdfjsViewer)
-		    label1.Text = "HTMLViewer1.LoadPage("+pdfjsViewer.nativePath+")"
-		    
-		    dim loadString as string
-		    loadString = "file://"+pdfjsViewer.NativePath+"?file="+EncodeURLComponent(pdfjsViewer.parent.child("compressed.tracemonkey-pldi-09.pdf").NativePath)
-		    label1.Text = loadString
-		  else
-		    MsgBox("There is a problem loading the HTMLViewer at "+pdfjsViewer.NativePath)
-		    Exit
-		    
-		  End If
-		  
-		  
-		End Sub
-	#tag EndEvent
-#tag EndEvents
 #tag Events PushButtonFile3_1
 	#tag Event
 		Sub Action()
 		  HTMLViewer1.ExecuteJavaScript("PDFViewerApplication.close()")
+		  pdfFile = filesPath.Child("testPDFs").child("sample-link_1.pdf")
+		  loadPDF(pdfFile)
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events prevPageBtn
+	#tag Event
+		Sub Action()
+		  if currentPageLabel.text.val > 1 then
+		    HTMLViewer1.ExecuteJavaScript("PDFViewerApplication.pdfLinkService.executeNamedAction('PrevPage')")
+		    updatePDF
+		  end if
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events nextPageBtn
+	#tag Event
+		Sub Action()
+		  if currentPageLabel.Text.val < totalPagesLabel.text.val then
+		    HTMLViewer1.ExecuteJavaScript("PDFViewerApplication.pdfLinkService.executeNamedAction('NextPage')")
+		    
+		    updatePDF
+		  end if
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events checkPage
+	#tag Event
+		Sub Action()
+		  if pdfjsViewer <> nil and HTMLViewer1.enabled and HTMLViewer1.IsAvailable then
+		    
+		  end if
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events Label1
+	#tag Event
+		Function MouseDown(X As Integer, Y As Integer) As Boolean
+		  if me.text.Len > 5 then ShowURL(me.Text)
+		End Function
+	#tag EndEvent
+#tag EndEvents
+#tag Events loadLocalPdfBtn
+	#tag Event
+		Sub Action()
+		  dim f as FolderItem
+		  f = GetOpenFolderItem(FileTypes1.Pdf)
+		  If f <> Nil Then loadPDF(f)
 		  
-		  pdfFile = "/Users/eduo/OneDrive%20-%20De%20Lage%20Landen%20International%20B.V/DLL/PM/Projects/XojoPdfJs/pdfjs/web/compressed.tracemonkey-pldi-09.pdf"
-		  HTMLViewer1.ExecuteJavaScript("PDFViewerApplication.open('"+pdfFile+"')")
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events loadPdfFolderBtn
+	#tag Event
+		Sub Action()
+		  dim f as FolderItem
+		  f = SelectFolder
+		  If f <> Nil and f.Directory Then
+		    pdfFileList.DeleteAllRows
+		    For i as integer = 1 to f.Count
+		      if f.item(i).Type = FileTypes1.Pdf.Name then
+		        pdfFileList.AddRow
+		        pdfFileList.RowTag(pdfFileList.LastIndex) = f.item(i)
+		        pdfFileList.Cell(pdfFileList.LastIndex, 0) = f.item(i).Name
+		      end if
+		    next
+		    
+		  End If
 		  
-		  dim loadString as string
-		  'loadString = "file://"+pdfjsViewer.NativePath+"?file="+EncodeURLComponent(pdfjsViewer.parent.child("sample-link_1.pdf").NativePath)
-		  loadString = "file://"+pdfjsViewer.NativePath+"?file="+pdfFile
-		  label1.Text = loadString
-		  
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events pdfFileList
+	#tag Event
+		Sub Change()
+		  for i as integer = 0 to me.ListCount -1
+		    if me.Selected(i) then
+		      if i <> selRow then
+		        loadPDF(me.RowTag(i))
+		        selRow = i
+		        me.SetFocus
+		      end if
+		    end if
+		  next
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events PushButtonFile2_2
+	#tag Event
+		Sub Action()
+		  HTMLViewer1.ExecuteJavaScript("PDFViewerApplication.pdfLinkService.navigateTo('appendix-a')")
 		  
 		End Sub
 	#tag EndEvent
