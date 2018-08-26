@@ -708,7 +708,7 @@ End
 	#tag EndProperty
 
 	#tag Property, Flags = &h21
-		Private selRow As Integer
+		Private selRow As Integer = -32000
 	#tag EndProperty
 
 	#tag Property, Flags = &h21
@@ -818,6 +818,7 @@ End
 		  f = SelectFolder
 		  If f <> Nil and f.Directory Then
 		    pdfFileList.DeleteAllRows
+		    selRow = -32000
 		    For i as integer = 1 to f.Count
 		      if f.item(i).Type = FileTypes1.Pdf.Name then
 		        pdfFileList.AddRow
@@ -839,10 +840,12 @@ End
 		      if i <> selRow then
 		        loadPDF(me.RowTag(i))
 		        selRow = i
-		        me.SetFocus
+		        me.SetFocus 
+		        
 		      end if
 		    end if
 		  next
+		  
 		End Sub
 	#tag EndEvent
 #tag EndEvents
