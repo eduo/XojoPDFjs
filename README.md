@@ -1,7 +1,7 @@
 # XojoPdfJs
 Running pdfjs inside a Xojo HTMLViewer
 
-##Example of integration of pdf.js into Xojo Desktop
+## Example of integration of pdf.js into Xojo Desktop
 
 Viewing PDFs is a common requirement for desktop applications, but reliance on plug-ins is always tricky in cross-platform environments.
 
