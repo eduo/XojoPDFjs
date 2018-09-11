@@ -628,7 +628,11 @@ End
 #tag WindowCode
 	#tag Event
 		Sub Open()
-		  filesPath = SpecialFolder.GetResource("pdfjs").child("web")
+		  #if DebugBuild
+		    filesPath =  GetFolderItem("pdfjs").child("web")
+		  #else
+		    filesPath = SpecialFolder.GetResource("pdfjs").child("web")
+		  #Endif
 		  pdfjsViewer = FolderItem(filesPath).child("pdfviewer.html")
 		  
 		  If pdfjsViewer <> Nil Then
